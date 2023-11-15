@@ -10,6 +10,7 @@
 ![Alt text](image.png)
 
 透過以下網址的step 9 可以獨立將Mysql用戶建立起來
+
 https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose-on-ubuntu-20-04#step-3-persisting-data
 
 #### 如何使用
@@ -17,8 +18,6 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and
 CD到此檔案下，先`docker build app`，將image建立好
 再進行`docker-compose up`即可進行Nginx、Mysql、Laravel的使用
 
-:::warning
 若有資料庫等設定問題，需要更改 `.env`檔案，以及`docker-compose.yml`的environment的設定
 
-:::
 
