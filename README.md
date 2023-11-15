@@ -19,5 +19,6 @@ CD到此檔案下，先`docker build app`，將image建立好
 
 :::warning
 若有資料庫等設定問題，需要更改 `.env`檔案，以及`docker-compose.yml`的environment的設定
+
 :::
 
